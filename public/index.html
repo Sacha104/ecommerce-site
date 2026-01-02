@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Accueil - Ma Boutique Démo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-left">
+          <a href="/index.html" class="logo">
+            <span class="logo-circle"></span>
+            <span class="logo-text">Ma Boutique</span>
+          </a>
+          <nav>
+            <a href="/index.html" class="active">Accueil</a>
+            <a href="/products.html">Produits</a>
+            <a href="/about.html">À propos</a>
+            <a href="/contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="nav-right">
+          <button class="cart-button">
+            <span class="cart-icon"></span>
+            <span>Panier</span>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <section class="hero">
+        <div>
+          <div class="hero-badge">
+            <span>🚀</span> <span>Nouveau</span>
+          </div>
+          <h1 class="hero-title">
+            Bienvenue sur <span class="store-name">Ma Boutique Démo</span>
+          </h1>
+          <p class="hero-subtitle">
+            Découvrez une sélection de produits modernes, faciles à personnaliser
+            pour votre propre marque. Paiement sécurisé, gestion des commandes
+            et envoi automatique au fournisseur.
+          </p>
+          <div class="hero-actions">
+            <button id="hero-buy-now" class="btn btn-primary">
+              Acheter maintenant
+            </button>
+            <a href="/products.html" class="btn btn-outline">Voir tous les produits</a>
+          </div>
+        </div>
+        <div class="hero-image"></div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Nos produits phares</h2>
+        <div id="products-list" class="products-grid">
+          <!-- produits chargés via JS -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span class="store-name">Ma Boutique Démo</span>. Tous droits réservés.
+      </p>
+    </footer>
+
+    <!-- Modal panier -->
+    <div id="cart-modal" class="cart-modal">
+      <div id="cart-modal-overlay" class="cart-modal-overlay"></div>
+      <div class="cart-modal-content">
+        <div class="cart-modal-header">
+          <h3>Votre panier</h3>
+          <button id="cart-modal-close" class="btn btn-outline btn-sm">
+            Fermer
+          </button>
+        </div>
+        <div id="cart-modal-body" class="cart-modal-body"></div>
+        <div class="cart-modal-footer">
+          <div>
+            <div class="cart-total-label">Total</div>
+            <div id="cart-total" class="cart-total-value">0,00 €</div>
+          </div>
+          <button id="cart-checkout-btn" class="btn btn-primary">
+            Passer au paiement
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/config.js"></script>
+    <script src="/js/cart.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
