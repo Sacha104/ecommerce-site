@@ -1,0 +1,72 @@
+[
+  {
+    "id": "prod_1",
+    "name": "T-shirt Blanc",
+    "description": "T-shirt en coton bio, coupe unisexe.",
+    "price": 1990,
+    "image": "https://via.placeholder.com/300x200?text=T-shirt+Blanc"
+  },
+  {
+    "id": "prod_2",
+    "name": "T-shirt Noir",
+    "description": "T-shirt noir premium, confortable.",
+    "price": 2190,
+    "image": "https://via.placeholder.com/300x200?text=T-shirt+Noir"
+  },
+  {
+    "id": "prod_3",
+    "name": "Sweat à capuche",
+    "description": "Sweat chaud et doux, idéal pour l'hiver.",
+    "price": 3990,
+    "image": "https://via.placeholder.com/300x200?text=Sweat+Capuche"
+  },
+  {
+    "id": "prod_4",
+    "name": "Casquette",
+    "description": "Casquette ajustable, style urbain.",
+    "price": 1490,
+    "image": "https://via.placeholder.com/300x200?text=Casquette"
+  },
+  {
+    "id": "prod_5",
+    "name": "Sac à dos",
+    "description": "Sac à dos pratique avec plusieurs poches.",
+    "price": 4990,
+    "image": "https://via.placeholder.com/300x200?text=Sac+à+dos"
+  },
+  {
+    "id": "prod_6",
+    "name": "Chaussures de sport",
+    "description": "Chaussures légères et respirantes.",
+    "price": 6990,
+    "image": "https://via.placeholder.com/300x200?text=Chaussures+Sport"
+  },
+  {
+    "id": "prod_7",
+    "name": "Polo",
+    "description": "Polo chic, idéal pour le bureau.",
+    "price": 2990,
+    "image": "https://via.placeholder.com/300x200?text=Polo"
+  },
+  {
+    "id": "prod_8",
+    "name": "Short",
+    "description": "Short léger pour l'été.",
+    "price": 2490,
+    "image": "https://via.placeholder.com/300x200?text=Short"
+  },
+  {
+    "id": "prod_9",
+    "name": "Veste légère",
+    "description": "Veste coupe-vent, idéale mi-saison.",
+    "price": 5990,
+    "image": "https://via.placeholder.com/300x200?text=Veste"
+  },
+  {
+    "id": "prod_10",
+    "name": "Chaussettes (lot de 3)",
+    "description": "Chaussettes confortables, lot de 3 paires.",
+    "price": 990,
+    "image": "https://via.placeholder.com/300x200?text=Chaussettes"
+  }
+]
