@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Produits - Ma Boutique Démo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-left">
+          <a href="/index.html" class="logo">
+            <span class="logo-circle"></span>
+            <span class="logo-text">Ma Boutique</span>
+          </a>
+          <nav>
+            <a href="/index.html">Accueil</a>
+            <a href="/products.html" class="active">Produits</a>
+            <a href="/about.html">À propos</a>
+            <a href="/contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="nav-right">
+          <button class="cart-button">
+            <span class="cart-icon"></span>
+            <span>Panier</span>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <section>
+        <h1 class="section-title">Tous nos produits</h1>
+        <div id="products-list" class="products-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span class="store-name">Ma Boutique Démo</span>. Tous droits réservés.
+      </p>
+    </footer>
+
+    <!-- Modal panier -->
+    <div id="cart-modal" class="cart-modal">
+      <div id="cart-modal-overlay" class="cart-modal-overlay"></div>
+      <div class="cart-modal-content">
+        <div class="cart-modal-header">
+          <h3>Votre panier</h3>
+          <button id="cart-modal-close" class="btn btn-outline btn-sm">
+            Fermer
+          </button>
+        </div>
+        <div id="cart-modal-body" class="cart-modal-body"></div>
+        <div class="cart-modal-footer">
+          <div>
+            <div class="cart-total-label">Total</div>
+            <div id="cart-total" class="cart-total-value">0,00 €</div>
+          </div>
+          <button id="cart-checkout-btn" class="btn btn-primary">
+            Passer au paiement
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/config.js"></script>
+    <script src="/js/cart.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
